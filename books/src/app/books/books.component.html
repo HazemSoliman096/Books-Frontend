@@ -1,6 +1,9 @@
-<h2>{{book.title | uppercase}} Details</h2>
-<div><span>id: </span>{{book.id}}</div>
-<div>
-  <label for="name">Book name: </label>
-  <input id="name" [(ngModel)]="book.title" placeholder="name" />
-</div>
+<h2>My Books</h2>
+<ul class="books">
+  <li *ngFor="let book of books">
+    <button type="button">
+      <span class="badge">{{book.id}}</span>
+      <span class="name">{{book.title}}</span>
+    </button>
+  </li>
+</ul>
