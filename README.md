@@ -1,2 +1,2 @@
-# Books-Frontend
-Creating frontend for the books api repo and learning angular
+# Learn_Angular
+  learning angular with the tour of heroes tutorial in angular docs.  
